@@ -11,7 +11,6 @@ export default function RootLayout(props: { children: ReactNode }){
   return (
     <html lang="en">
       <body>
-        hi
         <Providers>
           {props.children}
         </Providers>
